@@ -10,10 +10,20 @@ margin: 10px auto;
 body {
 background-color:black;
 color: white;
+} 
+/*name banner*/
+.svg-container {
+    margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 1600;
 }
 .svg {
 width: 75%;
 height: auto;
+
 }
 .svg path {
 fill: #fff;
@@ -78,7 +88,6 @@ to {
 width: 75%;
 padding: 12px;
 }
-
 .cls-1 {
 fill: #fff;
 stroke: #fff;
@@ -87,6 +96,7 @@ stroke-dasharray: 1500;
 opacity: 10;
 animation: animate 3s cubic-bezier(.49, .08, .94, .59);
 }
+/* Footer */
 .wrapper {
 	display: flex;
 	justify-content: space-around;
