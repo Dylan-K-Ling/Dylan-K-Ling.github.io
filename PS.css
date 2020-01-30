@@ -18,7 +18,6 @@ color: white;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	max-width: 1600;
 }
 .svg {
 width: 75%;
@@ -101,8 +100,8 @@ animation: animate 3s cubic-bezier(.49, .08, .94, .59);
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	width: auto;
-	height: auto;
+	vertical-align: center;
+	padding: 3px;
 	background-image: linear-gradient(to bottom right, #81c2de, #4f92ac);
 	transition: all .4s ease-out;
   }
@@ -110,7 +109,10 @@ animation: animate 3s cubic-bezier(.49, .08, .94, .59);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 70%;
+	width: 25%;
+  }
+  .social-link{
+	  display: inherit;
   }
   
   .social-link--linkedin {
